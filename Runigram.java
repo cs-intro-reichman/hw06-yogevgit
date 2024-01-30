@@ -30,6 +30,7 @@ public class Runigram {
 		imageScale = scaled(tinypic,5,3);
 		System.out.println();
 		print(imageScale);
+		System.out.println();
 		
 		
 		//// Write here whatever code you need in order to test your work.
