@@ -169,12 +169,12 @@ public class Runigram {
 		int w = width;
 		int h = height;
 		double scalew = (double)w0/w;
-		double scaleh = (double)h0/h;
+		double scaleheight = (double)h0/h;
 		
 		Color[][] scaledImage = new Color[h][w];
 		for (int i = 0; i < h; i++) {
 			for (int j = 0; j < w; j++) {
-				double ii = i*scaleh;
+				double ii = i*scaleheight;
 				double jj = j*scalew;
 				scaledImage[i][j] = image[(int)ii][(int)jj]; 
 			}
