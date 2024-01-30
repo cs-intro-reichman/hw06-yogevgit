@@ -21,15 +21,7 @@ public class Runigram {
 		Color[][] imageBlended;
 
 		// Tests the horizontal flipping of an image:
-		imageOut = flippedHorizontally(tinypic);
-		System.out.println();
-		print(imageOut);
-		imageIn = flippedVertically(tinypic);
-		System.out.println();
-		print(imageIn);
-		imageScale = scaled(tinypic,5,3);
-		System.out.println();
-		print(imageScale);
+		//
 		
 		
 		//// Write here whatever code you need in order to test your work.
