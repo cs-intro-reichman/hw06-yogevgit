@@ -166,6 +166,7 @@ public class Runigram {
 		//// Replace the following statement with your code
 		int w0 = image[0].length;
 		int h0 = image.length;
+		// #feedback - there is no need to define new variables for width and height, you can use them explicitly.
 		int w = width;
 		int h = height;
 		double scalew = (double)w0/w;
